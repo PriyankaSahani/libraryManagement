@@ -603,7 +603,13 @@ long int getcode(char name[])
 
 
 int main()
-{   system("cls");
+
+{
+    cout<<"WELCOME TO LIBRARY MANAGEMENT SYSTEM";
+    cout<<endl<<"press any key to continue"<<endl;
+    char c;
+    cin>>c;
+      system("cls");
     int ans;
     do{
             system("cls");
