@@ -3,6 +3,10 @@
 #include<ctime>
 //#include<regex>
 
+
+// second sem library management system
+// made by aishanya singh and priyanka sahani
+
 using namespace std;
 void setdate(int* dd, int* mm, int* yy)
 {
