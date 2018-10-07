@@ -124,7 +124,7 @@ void show_issued_books(char rollcode[])
     {
         cout<<"\n cannot open file ! ";
         getch();
-       // return -1;
+       
     }
     while(file.read((char*)&iss,sizeof(iss)))
     {
