@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include<conio.h>
 #include<ctime>
-//#include<regex>
+
 
 using namespace std;
 void setdate(int* dd, int* mm, int* yy)
