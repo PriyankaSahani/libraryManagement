@@ -239,7 +239,7 @@ void student :: display()
 
 void changestudentissuestatus(char roll[], int x)
 {
-   // puts(roll);
+  
     student st;
     fstream file;
     file.open("student.dat",ios::in|ios::out|ios::binary);
