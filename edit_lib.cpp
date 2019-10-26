@@ -3,6 +3,10 @@
 #include<ctime>
 //#include<regex>
 
+
+// second sem library management system
+// made by aishanya singh and priyanka sahani
+
 using namespace std;
 void setdate(int* dd, int* mm, int* yy)
 {
@@ -603,7 +607,13 @@ long int getcode(char name[])
 
 
 int main()
-{   system("cls");
+
+{
+    cout<<"WELCOME TO LIBRARY MANAGEMENT SYSTEM";
+    cout<<endl<<"press any key to continue"<<endl;
+    char c;
+    cin>>c;
+      system("cls");
     int ans;
     do{
             system("cls");
